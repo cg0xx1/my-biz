@@ -2,9 +2,9 @@
 
 ## **Review Checklist (per Skill Requirements)**
 
-All 6 skills have been reviewed and updated to meet the **PASS** criteria:
+All 7 skills have been reviewed and updated to meet the **PASS** criteria:
 
-| Criteria | Skills 1–6 |
+| Criteria | Skills 1–7 |
 | :--- | :--- |
 | **Skill Name** | Short, easy to understand (e.g., Whale Tracker, Auto Yield Optimizer, Token Unlock Alert) |
 | **Target User** | Specific: portfolio size, trade frequency, current tools used |
@@ -17,7 +17,7 @@ All 6 skills have been reviewed and updated to meet the **PASS** criteria:
 ---
 
 ## **Executive Summary**
-The primary challenge for the **ClawFriend Skill Market** is the "Empty Marketplace" problem. To drive user retention and financial growth, the platform must host high-utility skills that solve real "pain points" for users. By utilizing a **Holder-gated** monetization model, these skills directly incentivize users to purchase and hold agent shares, creating a sustainable economic flywheel where functional capability drives asset value.
+The primary challenge for the **ClawFriend Skill Market** is the "Empty Marketplace" problem. **Skills serve as distribution assets**—each skill attracts users from external channels (Nansen users, airdrop hunters, friend.tech, etc.) and brings them **into ClawFriend** to connect wallet and buy shares. By utilizing a **Holder-gated** monetization model, these skills directly incentivize users to purchase and hold agent shares, creating a sustainable economic flywheel where functional capability drives asset value and user acquisition.
 
 ---
 
@@ -71,7 +71,20 @@ The primary challenge for the **ClawFriend Skill Market** is the "Empty Marketpl
 
 ---
 
-### **Skill 4: Token Unlock & Vesting Calendar**
+### **Skill 4: ClawFriend Share Flow Tracker** *(ClawFriend Focus)*
+| Field | Content |
+| :--- | :--- |
+| **Skill Name** | **ClawFriend Share Flow Tracker** |
+| **Target User** | Share trader on ClawFriend; buys agent shares for holder-gated skills or to trade the bonding curve for profit; wants to identify early alpha agents before share prices pump. |
+| **Problem** | Missing early entry before agent shares pump 50–100%; no unified view of which agents have smart money flow; bonding curve is opaque; hard to distinguish high-utility agents from noise; no real-time share flow or cluster detection on ClawFriend. |
+| **Current Alternatives** | Manual leaderboard checks, Discord/community rumors. No agent for real-time share flow + agent scoring on ClawFriend. |
+| **How Skill Solves** | Tracks share flow velocity (buy vs sell by agent on BNB Chain), bonding curve position vs fair value, cluster detection (multi-wallet accumulation on same agent), skill utility correlation (holders → skill usage → share demand), alert <60s on unusual accumulation. Output: agent score, share flow chart, top accumulators, fair-value estimate. |
+| **Visibility & Monetization** | **Private/holder-gated:** Hold **≥5 shares** of any ClawFriend agent → access agent scores, share-flow alerts, bonding curve analytics. Skill uses on-chain data from ClawFriend Shares Trading. |
+| **Demand Evidence** | **SocialFi bonding curve proven:** Friend.tech **14.19M** txns, **$628.73M** inflow [(Dune)](https://dune.com/cryptokoryo/friendtech)—users actively trade keys; Dune dashboards + third-party key trackers emerged to meet demand. **Agent tokenization:** Virtuals **$13.58B** trading vol (30D), **17,897** AI projects [(Virtuals)](https://virtuals.io)—agent asset trading validated. **Flow-tracker demand:** friend.tech users seek key flow, room scoring, bonding-curve alpha; no native tool exists—same need applies to any platform with share/key trading. |
+
+---
+
+### **Skill 5: Token Unlock & Vesting Calendar**
 | Field | Content |
 | :--- | :--- |
 | **Skill Name** | **Token Unlock Alert** |
@@ -84,7 +97,7 @@ The primary challenge for the **ClawFriend Skill Market** is the "Empty Marketpl
 
 ---
 
-### **Skill 5: DeFi Yield Optimizer & APY Tracker**
+### **Skill 6: DeFi Yield Optimizer & APY Tracker**
 | Field | Content |
 | :--- | :--- |
 | **Skill Name** | **Auto Yield Optimizer** |
@@ -97,7 +110,7 @@ The primary challenge for the **ClawFriend Skill Market** is the "Empty Marketpl
 
 ---
 
-### **Skill 6: Copy Trading & Social Alpha Aggregator**
+### **Skill 7: Copy Trading & Social Alpha Aggregator**
 | Field | Content |
 | :--- | :--- |
 | **Skill Name** | **KOL Alpha Tracker** |
