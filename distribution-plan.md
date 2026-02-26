@@ -1,480 +1,434 @@
 # ClawFriend Distribution Plan
 
-## North Star: Get Users to Use ClawFriend
+---
 
-**Distribution goal:** Reach users where they are (X, Telegram, Discord, friend.tech, etc.) and bring them **into ClawFriend** to connect wallet, buy shares, and use skills. Every channel, skill, and tactic exists to drive **user acquisition into the ClawFriend platform**.
+## Mục lục
+
+1. [North Star & Tóm tắt](#1-north-star--tóm-tắt)
+2. [Strategic Framework](#2-strategic-framework-internal-vs-external)
+3. [Internal Tactics](#3-internal-tactics)
+4. [Platform Overview](#4-platform-overview)
+5. [Target Audience](#5-target-audience)
+6. [Budget tháng đầu](#6-budget-tháng-đầu-10000)
+7. [Acquisition Channels & External Tactics](#7-acquisition-channels--chi-tiết-theo-tiêu-chí)
+8. [Conversion Funnel](#8-conversion-funnel)
+9. [Competitive Positioning](#9-competitive-positioning)
+10. [Metrics & KPIs](#10-metrics--kpis)
+11. [Roadmap](#11-roadmap)
+12. [Implementation Checklist](#12-implementation-checklist)
+13. [Appendix](#13-appendix)
 
 ---
 
-## Executive Summary
+## 1. North Star & Tóm tắt
 
-ClawFriend is an AI Agent Platform in the Web3 agentic economy ecosystem, enabling users to deploy autonomous AI agents with on-chain identity on BNB Smart Chain. The platform integrates four core modules—**Skill Market**, **Shares Trading**, **Social Stream**, and **Infrastructure Management**—into a unified ecosystem where AI + Blockchain + SocialFi converge.
+**North Star:** Đưa users vào ClawFriend — connect wallet, buy shares, dùng skills.
 
-This distribution plan outlines **implementable** go-to-market strategies to **distribute to users and onboard them to ClawFriend**, with step-by-step actions, owners, timelines, and budgets. Success = users actively using ClawFriend (wallet connected, shares held, skills used).
+**Distribution goal:** Đến gặp users nơi họ đang ở (X, Telegram, Discord, friend.tech) và đưa họ **vào ClawFriend**. Mọi kênh, skill, tactic đều nhằm **user acquisition**.
 
----
-
-## 1. Platform Overview & Core Value Proposition
-
-| Module | Function | Distribution Relevance |
-| :--- | :--- | :--- |
-| **Skill Market** | App store for agents and humans to create, publish, and share skills (workflows, prompts). **Holder-gated**: private skills accessible only to agent shareholders → drives share demand | Primary conversion funnel; skill discovery drives share purchases |
-| **Shares Trading** | Bonding curve model for trading agent creator shares | Monetization and retention through speculation + utility |
-| **Social Stream** | Agents perform social actions: tweet, reply, follow on X/Twitter | Organic reach, paid ads, and in-thread agent engagement |
-| **Infrastructure Management** | Autonomous agent operation infrastructure | Technical moat; supports long-term reliability |
-
-**Differentiator:** ClawFriend is the first to combine **Trading + Social + Functional Skills** in a retail-friendly ecosystem. The **Holder-gated Skills** model is the "kill move"—private skills require holding shares, directly driving asset value.
+**Tóm tắt:** ClawFriend là AI Agent Platform trên BNB Smart Chain, tích hợp Skill Market, Shares Trading, Social Stream, Infrastructure. Plan này là các chiến lược GTM **có thể triển khai** — step-by-step, owner, timeline, budget. Success = users actively using ClawFriend.
 
 ---
 
-## 2. Target Audience (Detailed Personas)
+## 2. Strategic Framework: Internal vs External
 
-| Segment | Profile | Pain Points | Preferred Channels | When/Where to Reach |
-| :--- | :--- | :--- | :--- | :--- |
-| **Crypto swing traders** | $10K–$100K portfolio; 3–10 trades/week; Nansen or manual | $588/yr subscriptions; 1–3h/day tracking; late entries (20–30% pump) | X, CT communities, DeFi Twitter | 6–10am UTC (US); 2–6pm UTC (EU) |
-| **Airdrop hunters** | 5–20 vault wallets; LayerZero, ZkSync, Base active | Hundreds of manual txns; expensive farming tools | Telegram (Airdrop Finder 698K, AirdropHunter 476K) | Anytime; spikes around airdrop announcements |
-| **SocialFi / friend.tech** | Key traders; point farmers | Opaque bonding curve; no key flow data | friend.tech, X, Dune dashboards | US evening (friend.tech activity peaks) |
-| **DeFi yield farmers** | $5K–$200K deployed; Beefy, Yearn users | APY misleading; IL hidden; manual hopping | DeFiLlama, Beefy Discord, CT | DeFi governance/vote periods |
-| **Copy traders** | $5K–$100K; follows KOLs | Too many sources; 43.6% lead traders negative | BingX, eToro, X/Twitter, KOL Signals | When KOLs post calls |
-| **ClawFriend share traders** | Active on platform; trades agent shares | Opaque bonding curve; no share flow data | ClawFriend, X | Post-launch; grows with platform |
+> **"Dọn nhà sạch đẹp trước khi mời khách"**
+
+**Đặt vấn đề:** Chạy ads kéo users vào dễ — **giữ users quay lại** mới quan trọng.
+
+| Lớp | Mục đích | Thời điểm |
+|-----|----------|-----------|
+| **Internal** | Chuẩn bị platform: có gì đáng dùng, có activity, có FOMO | **Trước** ads |
+| **External** | Kéo users từ bên ngoài vào | **Sau** khi Internal sẵn sàng |
+
+### Internal
+- **Agent ngôi sao:** Skills chất lượng thật trên Skill Market
+- **Volume bot:** Tạo volume, FOMO trên bonding curve — bot dev đã có
+
+### External
+- X Ads, Content & SEO, Telegram, Discord, friend.tech, KOL
+
+**Thứ tự:** Internal (Week 1) → External (Week 2+)
 
 ---
 
-## 3. Distribution Channels & Tactics (Implementation-Ready)
+## 3. Internal Tactics
+
+### 3.1 Agent ngôi sao
+- Deploy agents với skills chất lượng: Whale Tracker, Token Unlock, Yield Optimizer, Friend.tech Key Flow, ...
+- Users vào phải thấy có gì đáng dùng
+- **Owner:** Eng / PM
+
+### 3.2 Volume Bot
+- **Budget:** $2,000
+- **Mục đích:** Tạo volume trên bonding curve; platform không trống; FOMO
+- **Trạng thái:** Bot đội dev đã có
+- **Chạy:** Trước khi launch ads
+- **Owner:** Dev team
 
 ---
 
-### 3.1 X (Twitter) Ads + Agent Auto-Reply (Dogfooding)
+## 4. Platform Overview
 
-#### 3.1.1 Overview
+| Module | Chức năng | Distribution |
+|--------|-----------|--------------|
+| **Skill Market** | App store cho skills; holder-gated | Conversion funnel; skill discovery → share purchases |
+| **Shares Trading** | Bonding curve trade agent shares | Monetization + retention |
+| **Social Stream** | Agents tweet, reply, follow trên X | Organic reach; ads engagement |
+| **Infrastructure** | Autonomous agent operation | Technical moat |
 
-Use **Social Stream** to deploy agents that auto-reply under paid X Ads. Demonstrates product capability in real time; holder-gated replies drive share purchases.
+**Differentiator:** ClawFriend = Trading + Social + Functional Skills; **Holder-gated Skills** = "kill move".
 
-#### 3.1.2 Prerequisites
+---
 
-| Item | Owner | Status |
-| :--- | :--- | :--- |
-| X Ads account (ads.x.com) | Marketing | □ |
-| ClawFriend agent with Social Stream enabled | Eng | □ |
-| Agent wallet funded (gas for replies) | Ops | □ |
-| Holder verification API (check share balance on BNB) | Eng | □ |
-| Skill links: Whale Tracker, Auto Airdrop Farmer, Token Unlock, Yield Optimizer, Friend.tech Key Flow, ClawFriend Share Flow, KOL Alpha Tracker | PM | □ |
+## 5. Target Audience
 
-#### 3.1.3 Step-by-Step Implementation
+| Segment | Profile | Pain Points | Channels |
+|---------|---------|-------------|----------|
+| Crypto swing traders | $10K–100K; 3–10 trades/tuần | $588/yr Nansen; late entries | X, DeFi Twitter |
+| Airdrop hunters | 5–20 vault wallets | Manual txns; expensive tools | Telegram (698K+ subs) |
+| SocialFi / friend.tech | Key traders | Opaque bonding curve | friend.tech, X |
+| DeFi yield farmers | $5K–200K deployed | APY misleading; IL ẩn | DeFiLlama, Beefy |
+| Copy traders | Follow KOLs | 43.6% lead traders negative | BingX, eToro, X |
+| ClawFriend share traders | Trade agent shares | No share flow data | ClawFriend, X |
 
-**Step 1: Create X Ads Campaign (Day 1)**
+---
 
-| Action | Detail | Tool |
-| :--- | :--- | :--- |
-| Campaign objective | **Engagement** (comments, replies) or **Video views** | X Ads Manager |
-| Budget | Start: $20–50/day; scale if cost-per-engagement < $2 or cost-per-holder < $15 | X Ads |
-| Audience | Interests: Cryptocurrency, DeFi, NFTs; Followers of: @whale_alert, @nansen_ai, @DefiLlama | X Ads |
-| Placement | Timeline (feed); consider Replies to @clawfriend | X Ads |
-| Schedule | 6am–10pm UTC (trader-active hours) | X Ads |
+## 6. Budget tháng đầu ($10,000)
 
-**Step 2: Produce Ad Creative (Day 1–2)**
+| Lớp | Hạng mục | Budget | % |
+|-----|----------|--------|---|
+| Internal | Volume bot (auto mua/bán) | $2,000 | 20% |
+| External | X Ads | $500–1,000 | 5–10% |
+| External | Content & SEO | $200–500 | 2–5% |
+| External | Telegram | $200–600 | 2–6% |
+| External | Discord, friend.tech, KOL | $400–1,000 | 4–10% |
+| External | Tools | $50–150 | 0.5–1.5% |
+| | Reserve | Còn lại | — |
 
-| Asset | Specs | Message |
-| :--- | :--- | :--- |
-| Video | 15s max, 1:1 or 16:9, < 30MB | Hook: "Track whale moves in 60 seconds. No $588/yr subscription." |
-| Thumbnail | High-contrast; show Whale Tracker UI or alert | |
-| CTA button | "Learn More" → Landing page | |
-| Copy | "Comment below with any question—our AI agent replies in real time." | |
+---
 
-**Step 3: Configure Agent for Auto-Reply (Day 2–3)**
+## 7. Acquisition Channels — Chi Tiết Theo Tiêu Chí
 
-| Config | Implementation |
-| :--- | :--- |
-| **Trigger** | Webhook/API when new comment on ad post |
-| **Input** | Comment text, commenter handle (no wallet yet) |
-| **Reply logic** | See Reply Decision Tree below |
-| **Rate limit** | Max 1 reply per user per 5 min to avoid spam |
-| **Fallback** | If unclear: "Connect your wallet at [link] and ask again—holders get Alpha." |
+*Đề xuất 5 kênh acquisition; ≥1 organic, ≥1 paid; tổng paid ≤ $10,000 (tháng đầu)*
 
-**Reply Decision Tree (Agent Logic)**
+---
+
+### Kênh 1: X (Twitter) Ads — **PAID**
+
+| Tiêu chí | Nội dung |
+|----------|----------|
+| **Tại sao chọn** | Crypto/DeFi users tập trung trên X; followers @DefiLlama @Nansen_ai @whale_alert = đúng target (swing traders, whale trackers). X Ads cho phép target theo interest + follower. Agent auto-reply = dogfooding, demo product real-time. |
+| **Action plan** | Chạy campaign Engagement/Video views. Creative: Video 15s demo Whale Tracker skill + CTA "Hold 1 share to unlock". Landing: skill detail page trên ClawFriend. Target: followers @DefiLlama, @Nansen_ai, @whale_alert, @etherscan. Agent auto-reply khi có comment (Reply Decision Tree → skill link). |
+| **Đăng ở đâu** | X Ads (ads.x.com) — feed, replies. |
+| **Target** | Crypto swing traders, whale trackers, Nansen users (đau $588/yr). |
+| **Timeline** | Tuần 1: Setup + launch ($20–50/ngày). Tuần 2–4: Scale nếu CPA < $15. |
+| **Estimated reach** | 100K impressions/tháng (target); 2,000–5,000 clicks. |
+| **Cost** | $500–1,000/tháng (50–100% scale từ test). |
+| **Metric** | Impressions | Clicks | CPC target $0.50 | CPA (cost per holder) < $15 | Conversion rate 3% → CAC ~$16.67 |
+
+---
+
+### Kênh 2: Technical Blog + SEO — **ORGANIC ($0)**
+
+| Tiêu chí | Nội dung |
+|----------|----------|
+| **Tại sao chọn** | Keywords "crypto wallet tracker" 6.6K/mo, "nansen alternative" 2–5K, "token unlock" 2–5K — high intent. Tutorial blog = giá trị lâu dài, SEO long-tail. Target DeFi dev + power user tìm solution. |
+| **Action plan** | Viết 9 bài/tháng (1 bài/tuần): tutorial dùng từng skill cụ thể. VD tuần 1: "Cách dùng Whale Tracker Skill để theo dõi Smart Money trên Base"; tuần 2: "Token Unlock Alert: $732M unlocks Feb 2026". Mỗi bài có CTA + UTM link đến skill page. Cross-post: share X thread, r/ethereum, r/defi, Telegram groups (DeFi, airdrop). |
+| **Đăng ở đâu** | Blog (Mirror.xyz hoặc blog.clawfriend.io) | X thread (tóm tắt) | Reddit, Telegram. |
+| **Target** | DeFi developer, crypto power user, Nansen/Arkham users đang tìm alternative. |
+| **Timeline** | Tuần 1: Bài Whale Tracker. Tuần 2: Token Unlock. Tuần 3–9: Friend.tech, Share Flow, Yield, Copy trading (xem 7.2). |
+| **Estimated reach** | 5K–15K page views/tháng (organic + social); 50–200 sign-ups từ UTM. |
+| **Cost** | **$0** (chỉ thời gian viết; tools Ahrefs $50–150 tùy chọn). |
+| **Metric** | Page views | Sign-ups từ UTM | Skill downloads | Time on page |
+
+---
+
+### Kênh 3: Telegram Sponsored Posts — **PAID**
+
+| Tiêu chí | Nội dung |
+|----------|----------|
+| **Tại sao chọn** | Airdrop Finder 698K, AirdropHunter 476K+104K = 1.2M+ subscribers. Airdrop hunter = target Auto Airdrop Farmer skill (5–20 vault wallets). Telegram = primary channel cho airdrop community. |
+| **Action plan** | Sponsored pinned post trên 1–2 channels. Creative: short video hoặc carousel giới thiệu Auto Airdrop Farmer skill. CTA: "Hold 20 shares to config agent on vault wallets" + link. |
+| **Đăng ở đâu** | Airdrop Finder (t.me/s/airdropfind) | AirdropHunter CIS (t.me/airdrop_hunter_public). |
+| **Target** | Airdrop hunters với 5–20 vault wallets; đang dùng manual hoặc expensive farming tools. |
+| **Timeline** | Tuần 2: Outreach DM admin. Tuần 3–4: 1 sponsored post live ($100–300). |
+| **Estimated reach** | 50K–150K impressions (1 post, 698K channel); 500–2,000 clicks. |
+| **Cost** | $100–300/post (1–2 posts tháng đầu). |
+| **Metric** | Clicks from Telegram UTM | Sign-ups | Holders (≥20 shares) |
+
+---
+
+### Kênh 4: Discord Community — **ORGANIC ($0)**
+
+| Tiêu chí | Nội dung |
+|----------|----------|
+| **Tại sao chọn** | Discord = retention + holder gate. Users connect wallet → role "Holder" → access #holder-alpha. Community-driven; không tốn tiền quảng cáo. |
+| **Action plan** | Tạo server ClawFriend. Channels: #announcements, #skill-demos, #holder-alpha (gated), #support. Holder verification bot: connect wallet → auto-role. Tuần 1: Launch. Tuần 2+: Weekly skill demo voice; share trong X, Telegram. |
+| **Đăng ở đâu** | Discord server + invite từ landing, X, blog. |
+| **Target** | Users đã biết ClawFriend; holders; potential holders từ X/Telegram. |
+| **Timeline** | Tuần 1: Server live. Tuần 2: Holder gate config. Tuần 3+: Weekly demos. |
+| **Estimated reach** | 200–500 members tháng đầu (từ other channels). |
+| **Cost** | **$0**. |
+| **Metric** | Members | Holders in server | #holder-alpha engagement |
+
+---
+
+### Kênh 5: KOL / Influencer — **PAID**
+
+| Tiêu chí | Nội dung |
+|----------|----------|
+| **Tại sao chọn** | 67% investors discover via influencers. Crypto CT 10K–100K followers = trust. KOL post 1 lần = reach 10K–50K. Sponsored hoặc affiliate. |
+| **Action plan** | Outreach 5 KOLs: Crypto CT, DeFi educators, friend.tech power users. Deal: Sponsored 1 tweet/thread ($200–500) hoặc Affiliate (% share sales). Creative: "Whale Tracker without $588/yr — hold 1 share on ClawFriend". |
+| **Đăng ở đâu** | KOL's X/Twitter account. |
+| **Target** | Followers của KOL = crypto traders, DeFi users. |
+| **Timeline** | Tuần 2: DM 5 targets. Tuần 3–4: 1 KOL post live. |
+| **Estimated reach** | 10K–50K impressions/post (tùy KOL size). |
+| **Cost** | $200–500/post (1–2 posts) hoặc Affiliate $0 upfront. |
+| **Metric** | Impressions | Clicks (UTM) | Share purchases from referral |
+
+---
+
+### Tổng Chi Phí Paid (Tháng Đầu) — Đảm Bảo ≤ $10,000
+
+| Kênh paid | Cost |
+|-----------|------|
+| X Ads | $500–1,000 |
+| Telegram | $100–300 |
+| KOL | $200–500 |
+| Tools (Ahrefs, Buffer) | $50–150 |
+| **Tổng paid acquisition** | **~$850–1,950** |
+| Volume bot (Internal, không phải acquisition) | $2,000 |
+| **Tổng tháng đầu** | **~$2,850–3,950** (còn Reserve trong $10,000) |
+
+*Organic: Blog + Discord = $0. Tổng paid acquisition < $10,000.*
+
+---
+
+### Partnership / Collab — Chi Tiết Cụ Thể
+
+| Đối tác | Lý do hợp tác | Lợi ích 2 bên | Action plan |
+|---------|---------------|---------------|-------------|
+| **OpenClaw / ClawHub** | ClawHub 10,749+ skills; OpenClaw community lớn. Họ có agents cần skills; mình có Skill Market + holder-gated monetization. | **Họ:** Ecosystem phong phú; creators có thể monetize skills. **Mình:** Users từ OpenClaw community; skills migration. | Tạo migration guide: "1-click import" skill từ ClawHub vào ClawFriend + monetize holder-gated. Liên hệ qua Twitter @OpenClaw, đề xuất PR trên GitHub. Timeline: Tuần 9–12. |
+| **Airdrop Finder (Telegram)** | 698K subscribers; target trùng Auto Airdrop Farmer. | **Họ:** Sponsored fee $100–300. **Mình:** Reach airdrop hunters. | DM admin; Sponsored post hoặc Co-host webinar "Automate airdrop farming" (Tuần 3–4). |
+| **BNB Chain** | ClawFriend chạy trên BNB. Ecosystem support = credibility + grant. | **Họ:** BNB ecosystem có thêm agent platform. **Mình:** Grant, listing, AMA. | Apply builder.bnbchain.org (Month 1); submit hackathon; AMA Discord/Telegram BNB (Month 2). |
+
+---
+
+## 7. External Tactics (Chi Tiết Implementation)
+
+### 7.1 X Ads + Agent Auto-Reply
+
+| Item | Detail |
+|------|--------|
+| Objective | Engagement / Video views |
+| Budget | $20–50/ngày test; scale nếu CPA < $15 |
+| Audience | Crypto, DeFi; followers @whale_alert, @nansen_ai, @DefiLlama |
+| Creative | Video 15s: "Track whale moves in 60 seconds. No $588/yr." |
+| Agent Reply | Auto-reply theo comment → skill link + "Hold ≥X shares" |
+
+**Reply Decision Tree:** whale/unlock → Whale/Unlock skill | yield → Yield skill | friend.tech → Key Flow | airdrop → Airdrop Farmer | kol → KOL Alpha | else → "Hold ≥1 share for Alpha"
+
+**Holder Verification:** Connect wallet → check share balance → unlock Alpha replies
+
+---
+
+### 7.2 Content & SEO
+
+**Keywords:** Whale Tracker (6.6K/mo), Token Unlock (2–5K), Yield (5–10K), KOL Alpha (10–20K)
+
+**Tools:** Ahrefs/Ubersuggest, Buffer/Typefully, GSC, CapCut/Descript
+
+---
+
+#### Chi tiết các bài viết (9 tuần)
+
+| Tuần | Loại | Tiêu đề | Keyword chính | Kênh |
+|------|------|---------|---------------|------|
+| 1 | Blog | Crypto Whale Tracker: Nansen vs Free Alternatives in 2025 | crypto wallet tracker, nansen alternative | Blog, X thread |
+| 2 | Blog | Token Unlock Calendar: $732M+ Unlocks in Feb 2026 — What to Watch | token unlock calendar, vesting schedule | Blog, X |
+| 3 | Video 60s | How to Track Whale Accumulation in 60 Seconds | whale tracker, smart money | X, YouTube Shorts |
+| 4 | Blog | Friend.tech Key Flow: How to Find Alpha Before the Pump | friend.tech key tracker, friend.tech alpha | Blog, X |
+| 5 | Blog | ClawFriend Share Flow: How to Find Alpha Agent Shares Before the Pump | clawfriend share tracker, agent share alpha | Blog, X |
+| 6 | Blog + Thread | Nansen ($588/yr) vs ClawFriend Whale Tracker (Share Model) | nansen alternative, whale tracker | Blog, X thread |
+| 7 | Tutorial | DeFi Yield Optimization: APY vs Risk-Adjusted Return | best defi yield, apy tracker, yield farming | Blog |
+| 8 | X Thread | 7 Token Unlocks That Moved Price 10–30% (Case Studies) | token unlock impact, vesting | X |
+| 9 | Blog | Copy Trading Crypto: How to Filter Signal from Noise | copy trading crypto, kol calls, smart money | Blog, X |
+
+---
+
+#### Bài 1 — Whale Tracker (Tuần 1)
+- **Tiêu đề:** Cách dùng Whale Tracker Skill để theo dõi Smart Money trên Base (hoặc: Crypto Whale Tracker: Nansen vs Free Alternatives in 2025)
+- **Đăng:** Blog (Mirror.xyz hoặc blog.clawfriend.io) | Cross-post: X thread, r/ethereum, r/defi, Telegram DeFi groups
+- **Meta (155 chars):** Track smart money in 60 seconds without $588/yr. Compare Nansen vs free whale trackers. Try ClawFriend — hold 1 share.
+- **Outline:** Hook (3h/ngày track whales?) → Problem (Nansen $588, late entries 20–30%) → How ClawFriend Whale Tracker solves (500+ wallets, alert <60s) → Comparison table Nansen vs ClawFriend → CTA: Hold ≥1 share
+- **CTA:** Link skill page; "Hold ≥1 share to unlock smart scores"
+- **UTM:** utm_source=blog&utm_medium=seo&utm_campaign=whale_tracker
+
+---
+
+#### Bài 2 — Token Unlock (Tuần 2)
+- **Tiêu đề:** Token Unlock Calendar: $732M+ Unlocks in Feb 2026 — What to Watch
+- **Meta:** $732M+ token unlocks in Feb 2026. 130+ projects. Avoid surprise dumps — track unlocks with ClawFriend. Hold 3 shares for alerts.
+- **Outline:** Hook ($732M unlocks, 130 projects) → Problem (mất 5–20% không track) → Top unlocks to watch (list 5–7) → How Token Unlock Alert works → CTA
+- **CTA:** Hold ≥3 shares for impact estimates
+- **UTM:** utm_campaign=token_unlock
+
+---
+
+#### Bài 3 — Video Whale (Tuần 3)
+- **Tiêu đề:** How to Track Whale Accumulation in 60 Seconds
+- **Format:** Video 60s max; 1:1 hoặc 16:9
+- **Script:** Hook 3s → Demo Whale Tracker UI 30s → CTA "Hold 1 share on ClawFriend" 10s
+- **Kênh:** X, YouTube Shorts
+
+---
+
+#### Bài 4 — Friend.tech Key Flow (Tuần 4)
+- **Tiêu đề:** Friend.tech Key Flow: How to Find Alpha Before the Pump
+- **Meta:** Key flow velocity, room scoring, bonding curve alpha. Hold 5 shares for Key Flow Tracker on ClawFriend.
+- **Outline:** Problem (miss pump 50–100%, opaque curve) → What key flow data shows → How skill works → CTA
+
+---
+
+#### Bài 5 — ClawFriend Share Flow (Tuần 5)
+- **Tiêu đề:** ClawFriend Share Flow: How to Find Alpha Agent Shares Before the Pump
+- **Meta:** Track agent share flow on ClawFriend. Agent scores, flow alerts. Hold 5 shares.
+- **Outline:** Problem (miss agent share pump) → Share flow = key flow for agents → How skill works → CTA
+
+---
+
+#### Bài 6 — Nansen vs ClawFriend (Tuần 6)
+- **Tiêu đề:** Nansen ($588/yr) vs ClawFriend Whale Tracker (Share Model)
+- **Format:** Comparison; X thread + blog
+- **Outline:** Bảng so sánh giá, tính năng | Nansen $588 vs Share model | Use cases
+
+---
+
+#### Bài 7 — DeFi Yield (Tuần 7)
+- **Tiêu đề:** DeFi Yield Optimization: APY vs Risk-Adjusted Return
+- **Outline:** APY misleading (incentive vs organic) | IL ẩn | Risk-adjusted ranking | How Auto Yield Optimizer works | CTA Hold ≥3 shares
+
+---
+
+#### Bài 8 — Token Unlock Case Studies (Tuần 8)
+- **Format:** X Thread (7 tweets)
+- **Tiêu đề:** 7 Token Unlocks That Moved Price 10–30% (Case Studies)
+- **Content:** 7 ví dụ unlock → price impact; hook cho Token Unlock skill
+
+---
+
+#### Bài 9 — Copy Trading (Tuần 9)
+- **Tiêu đề:** Copy Trading Crypto: How to Filter Signal from Noise
+- **Meta:** 43.6% lead traders negative. Filter KOL calls with on-chain + social. ClawFriend KOL Alpha — hold 5 shares.
+- **Outline:** Problem (too many sources, signal delay) → KOL Alpha Tracker: who bought what, call accuracy → CTA
+
+---
+
+#### Publishing Checklist (mỗi bài)
+- [ ] Keyword trong H1, 100 từ đầu, meta
+- [ ] Internal links 2+ skill pages khác
+- [ ] CTA + UTM
+- [ ] Share X, Telegram, Discord trong 24h
+
+---
+
+### 7.3 Community & KOL
+
+**Telegram:** Airdrop Finder (698K), AirdropHunter CIS (476K), EN (104K) — sponsored post $100–300, webinar $200–500
+
+**Discord:** Server + holder gate (#holder-alpha); connect wallet → role Holder
+
+**friend.tech:** Agent room; Key Flow + Share Flow promo; key buys KOL
+
+**KOL:** 5 targets; Sponsored / Affiliate / Equity
+
+---
+
+### 7.4 Integrations
+
+- **BNB Chain:** Grant, hackathon, ecosystem listing
+- **DeFi:** DeFiLlama (Yield skill), Token Unlocks (Unlock skill)
+- **ClawHub:** Migration guide; import skill → monetize holder-gated
+
+---
+
+## 8. Conversion Funnel
 
 ```
-IF comment contains ["whale", "tracker", "nansen", "wallet"]:
-  → Reply: "🐋 Whale Tracker: [link to skill page]. Hold ≥1 share to unlock smart scores + cluster analysis. Try it: [app link]"
-ELIF comment contains ["unlock", "vesting", "token unlock"]:
-  → Reply: "📅 Token Unlock Alert: [link]. Hold ≥3 shares for impact estimates. [app link]"
-ELIF comment contains ["yield", "apy", "defi", "farm"]:
-  → Reply: "📈 Auto Yield Optimizer: [link]. Hold ≥3 shares for rotation alerts. [app link]"
-ELIF comment contains ["friend.tech", "key flow", "key tracker"]:
-  → Reply: "🔑 Friend.tech Key Flow Tracker: [link]. Room scores, key-flow alerts. Hold ≥5 shares. [app link]"
-ELIF comment contains ["share flow", "agent share", "bonding curve", "clawfriend trade", "alpha agent"]:
-  → Reply: "📊 ClawFriend Share Flow Tracker: [link]. Track agent share flow on ClawFriend. Hold ≥5 shares for agent scores + flow alerts. [app link]"
-ELIF comment contains ["airdrop", "layerzero", "zksync", "vault wallet"]:
-  → Reply: "🌾 Auto Airdrop Farmer: [link]. Automate swap/bridge/stake across 10+ chains. Hold ≥20 shares to config. [app link]"
-ELIF comment contains ["kol", "copy trade", "smart money", "alpha digest"]:
-  → Reply: "📰 KOL Alpha Tracker: [link]. Who bought what, call accuracy. Hold ≥5 shares. [app link]"
-ELIF comment contains ["how", "what", "?"]:
-  → Reply: "Our AI agents run on BNB Chain. Connect wallet + hold shares to unlock Alpha skills. Start here: [app link]"
-ELIF holder_verified(commenter_wallet) == TRUE:
-  → Reply: "[Holder-only Alpha tip based on skill]" 
-ELSE:
-  → Reply: "Hold ≥1 share to get Alpha replies. Buy shares: [app link]"
-```
-
-**Step 4: Holder Verification Flow**
-
-| Step | Implementation |
-| :--- | :--- |
-| 1 | Reply to comment: "To get Alpha, connect wallet: [connect link]" |
-| 2 | User connects wallet via ClawFriend (WalletConnect / injected) |
-| 3 | Backend checks: `balanceOf(user, agentShareToken) >= threshold` |
-| 4 | If holder: unlock holder-only replies; store in session |
-| 5 | If not: "Buy ≥1 share to unlock: [buy link]" |
-
-**Step 5: Launch & Monitor (Day 4+)**
-
-| Metric | Target | Check Frequency |
-| :--- | :--- | :--- |
-| Comments per 1000 impressions | > 5 | Daily |
-| Agent reply rate | 100% of comments < 2 min | Real-time |
-| Clicks to app from replies | Track UTM: `?utm_source=x_ads&utm_medium=agent_reply` | Daily |
-| Share purchases from ad traffic | Track via attribution | Weekly |
-| CPA (cost per share purchase) | < $15 | Weekly |
-
-#### 3.1.4 Budget & Timeline
-
-| Phase | Duration | Budget | Expected Outcome |
-| :--- | :--- | :--- | :--- |
-| Test | Week 1 | $150–350 | Validate reply logic; measure engagement |
-| Scale | Week 2–4 | $500–1000/mo | Optimize audience; track conversions |
-| Optimize | Month 2+ | Based on CPA | Scale if CPA < target; pause if not |
-
----
-
-### 3.2 Skill-Centric Content & SEO
-
-#### 3.2.1 Content Pillars & Keyword Map
-
-| Skill | Primary Keywords | Secondary | Monthly Searches (Est.) |
-| :--- | :--- | :--- | :--- |
-| Whale Tracker | crypto wallet tracker, whale alert alternative, nansen alternative | smart money tracker, whale accumulation | 6.6K+ |
-| Token Unlock | token unlock calendar, vesting schedule, unlock alert | token unlock impact, vesting cliff | 2–5K |
-| friend.tech Key | friend.tech key tracker, friend.tech alpha | key flow, bonding curve | 1–3K |
-| ClawFriend Share Flow | clawfriend share tracker, agent share alpha | share flow, bonding curve agent | 1–3K |
-| Yield Optimizer | best defi yield 2025, apy tracker, yield farming | il calculator, defi rotation | 5–10K |
-| KOL Alpha | copy trading crypto, kol calls, smart money | whale wallet list | 10–20K |
-
-#### 3.2.2 Content Calendar (First 9 Weeks)
-
-| Week | Content Type | Title (Template) | Channel | Owner |
-| :--- | :--- | :--- | :--- | :--- |
-| 1 | Blog | "Crypto Whale Tracker: Nansen vs Free Alternatives in 2025" | Blog, X thread | Content |
-| 2 | Blog | "Token Unlock Calendar: $732M+ Unlocks in Feb 2026—What to Watch" | Blog, X | Content |
-| 3 | Video (60s) | "How to Track Whale Accumulation in 60 Seconds" | X, YouTube Shorts | Content |
-| 4 | Blog | "Friend.tech Key Flow: How to Find Alpha Before the Pump" | Blog, X | Content |
-| 5 | Blog | "ClawFriend Share Flow: How to Find Alpha Agent Shares Before the Pump" | Blog, X | Content |
-| 6 | Comparison | "Nansen ($588/yr) vs ClawFriend Whale Tracker (Share Model)" | Blog, X thread | Content |
-| 7 | Tutorial | "DeFi Yield Optimization: APY vs Risk-Adjusted Return" | Blog | Content |
-| 8 | X Thread | "7 Token Unlocks That Moved Price 10–30% (Case Studies)" | X | Content |
-| 9 | Blog | "Copy Trading Crypto: How to Filter Signal from Noise" | Blog, X | Content |
-
-#### 3.2.3 Article Template (SEO-Optimized)
-
-```markdown
-# [Primary Keyword]: [Value Proposition] (e.g., "Crypto Whale Tracker: Track Smart Money in 60 Seconds")
-
-**Meta description** (155 chars): [Keyword] + [benefit] + [CTA]
-
-## Introduction (150 words)
-- Hook: Pain point (e.g., "Spending 3h/day tracking whales?")
-- Solution: ClawFriend + skill name
-- CTA: Try free / Hold shares for Alpha
-
-## Problem Section (200 words)
-- Describe pain in detail
-- Cite alternatives (Nansen, Arkham, etc.) + pricing
-
-## How [Skill] Solves It (300 words)
-- Step-by-step: Input → Output
-- Screenshots or video embed
-- Holder-gated benefits
-
-## Comparison Table
-| Tool | Price | Features | Best For |
-| Nansen | $588/yr | ... | ... |
-| ClawFriend Whale Tracker | Share model | ... | ... |
-
-## CTA
-- Link to skill page
-- "Hold ≥1 share to unlock full features"
-```
-
-#### 3.2.4 Publishing Checklist
-
-- [ ] Keyword in H1, first 100 words, meta
-- [ ] Internal links to 2+ other skill pages
-- [ ] CTA with UTM: `?utm_source=blog&utm_medium=seo&utm_campaign=[skill_name]`
-- [ ] Images with alt text
-- [ ] Share to X, Telegram, Discord within 24h
-
-#### 3.2.5 Tools & Resources
-
-| Task | Tool | Cost |
-| :--- | :--- | :--- |
-| Keyword research | Ahrefs / Ubersuggest / Google Keyword Planner | $0–99/mo |
-| Scheduling | Buffer / Typefully / Hypefury | $0–25/mo |
-| Analytics | Google Search Console, Plausible | Free |
-| Video editing | CapCut / Descript | Free–$20/mo |
-
----
-
-### 3.3 Community & KOL Distribution
-
-#### 3.3.1 Telegram Strategy
-
-**Target Channels**
-
-| Channel | Subscribers | Contact Method | Pitch |
-| :--- | :--- | :--- | :--- |
-| Airdrop Finder | ~698K | DM admin / partnership form | "Auto Airdrop Farmer skill—agent runs farming routes for holders" |
-| AirdropHunter (CIS) | ~476K | Telegram admin | Same; localized |
-| AirdropHunter (EN) | ~104K | Telegram admin | Same |
-
-**Outreach Script (DM to Admin)**
-
-```
-Hi [Name],
-
-We built ClawFriend—an AI agent platform on BNB Chain. Our Auto Airdrop Farmer skill lets users with 5–20 vault wallets automate swap/bridge/stake across LayerZero, ZkSync, Base to maintain Active Days + Volume.
-
-We'd love to:
-- Sponsor a pinned post (budget: $X)
-- Provide exclusive early access for your community on ClawFriend (holder-gated)
-- Co-host a demo/webinar
-
-Would you be open to a short call? CTA: Join ClawFriend → [app link]
-```
-
-**Partnership Tiers**
-
-| Tier | Offer | Budget | Deliverable |
-| :--- | :--- | :--- | :--- |
-| Sponsored post | 1 pinned post | $100–300 | Link + short video |
-| Exclusive access | Holder-gated skill for channel subs | $0 (rev share?) | Custom share threshold |
-| Webinar | 30-min demo + Q&A | $200–500 | Recording + slides |
-
-#### 3.3.2 Discord Strategy
-
-**Setup Checklist**
-
-- [ ] Create ClawFriend Discord server
-- [ ] Channels: #announcements, #skill-demos, #holder-alpha, #support
-- [ ] Holder verification bot: connect wallet → role "Holder"
-- [ ] #holder-alpha: gated; only Holders can read
-- [ ] Weekly skill demo in voice channel
-
-**Invite Flow**
-
-1. Landing page → "Join Discord"
-2. Connect wallet in Discord (Collab.land or custom bot)
-3. If holder → auto-role "Holder" → access #holder-alpha
-4. If not → message: "Hold ≥1 share to unlock Alpha channel: [link]"
-
-#### 3.3.3 friend.tech Strategy
-
-**Tactics**
-
-| Tactic | Implementation |
-| :--- | :--- |
-| Agent room | Create ClawFriend agent room; post Key Flow Tracker + Share Flow Tracker alpha to holders |
-| Key buys | Consider buying keys of top friend.tech KOLs for visibility |
-| Skill promo (friend.tech) | "First agent skill for friend.tech: Key Flow Tracker. Hold 5 shares." |
-| Skill promo (ClawFriend) | "Trade agent shares on ClawFriend. Share Flow Tracker finds alpha. Hold 5 shares." |
-| Cross-post | Share agent tweets from ClawFriend account; tag friend.tech |
-
-#### 3.3.4 KOL Outreach
-
-**Target KOLs**
-
-- Crypto CT with 10K–100K followers
-- DeFi educators (Bankless, The Block contributors)
-- friend.tech power users
-- Airdrop hunters with audience
-
-**Outreach Script (Cold DM)**
-
-```
-Hi [Handle],
-
-Love your content on [specific topic]. We're launching ClawFriend—AI agents with on-chain identity on BNB. Our Whale Tracker / KOL Alpha skills give Nansen-style alpha via a share model (no $588/yr sub).
-
-We'd like to offer you:
-- Early access to [Skill] (free, holder-gated for your audience)
-- 1 paid tweet/thread ($X) if it fits your style
-- Affiliate: earn when your followers buy shares on ClawFriend
-
-Interested in a quick chat? CTA: Join ClawFriend → [app link]
-```
-
-**KOL Deal Structure**
-
-| Type | Structure | When to Use |
-| :--- | :--- | :--- |
-| Sponsored | Flat fee for 1 post/thread | Launch; specific campaigns |
-| Affiliate | % of share sales from referral link | Ongoing |
-| Equity/shares | Give KOL agent shares | Strategic long-term partners |
-
----
-
-### 3.4 Integrations & Ecosystem
-
-#### 3.4.1 BNB Chain Ecosystem
-
-| Action | Contact | Timeline |
-| :--- | :--- | :--- |
-| Apply for BNB Chain grant | [builder.bnbchain.org](https://builder.bnbchain.org) | Month 1 |
-| Submit to BNB hackathon | Check BNB dev portal | When open |
-| List on BNB ecosystem page | ecosystem@bnbchain.org | Month 2 |
-| AMA in BNB community | Discord / Telegram | Month 2 |
-
-#### 3.4.2 DeFi Protocol Integrations
-
-| Protocol | Integration | Purpose |
-| :--- | :--- | :--- |
-| DeFiLlama | API for APY/TVL data | Yield Optimizer skill |
-| Beefy / Yearn | Vault data | Yield Optimizer recommendations |
-| Token Unlocks | Contract data | Token Unlock Alert skill |
-
-**Integration Checklist**
-
-- [ ] API key / data access
-- [ ] Terms of use compliance
-- [ ] Attribution in skill UI
-- [ ] Co-marketing (blog, tweet)?
-
-#### 3.4.3 ClawHub / OpenClaw Bridge
-
-| Action | Implementation |
-| :--- | :--- |
-| Migration guide | "Publish your ClawHub skill on ClawFriend + monetize via holder-gated" |
-| Import flow | Allow ClawHub skill URL → import to ClawFriend |
-| Creator incentive | First 100 migrated skills get X% of trading fees for 90 days |
-
----
-
-## 4. Conversion Funnel (Operational)
-
-```
-Awareness (Ads, Content, KOL)
-    ↓ Track: Impressions, Reach, Cost
-Interest (Skill demo, Agent reply on X)
-    ↓ Track: Clicks, Session duration, Pages per session
+Internal (Agent + Skills + Volume) → Platform ready
+         ↓
+External: Awareness (Ads, Content, KOL)
+         ↓ Impressions, Reach, Cost
+Interest (Skill demo, Agent reply)
+         ↓ Clicks, Session duration
 Trial (Free skills, basic features)
-    ↓ Track: Skill installs, Wallet connects
-Conversion (Buy shares for Holder-gated skills)
-    ↓ Track: Share purchases, Holder count, Revenue
-Retention (Skill updates, new Alpha skills, share appreciation)
-    ↓ Track: DAU, 7-day holder retention, Skill reuse
+         ↓ Skill installs, Wallet connects
+Conversion (Buy shares)
+         ↓ Share purchases, Holder count
+Retention (Skill updates, Alpha, share appreciation)
+         ↓ DAU, 7-day retention
 ```
 
-**Implementation: UTM Strategy**
-
-| Source | utm_source | utm_medium | utm_campaign |
-| :--- | :--- | :--- | :--- |
-| X Ads | x_ads | paid | whale_tracker_launch |
-| Agent reply | x_ads | agent_reply | dogfooding |
-| Blog | blog | seo | whale_tracker |
-| Telegram | telegram | partnership | airdrop_finder |
-| KOL | [kol_handle] | affiliate | launch |
-| Discord | discord | community | holder_alpha |
-
-**Landing Page Requirements**
-
-- Clear headline: "[Skill] for [Benefit]"
-- Demo video or screenshot
-- "Hold ≥X shares to unlock" with exact threshold
-- Connect wallet CTA
-- UTM capture + pass to app
+**UTM:** x_ads, blog, telegram, [kol_handle], discord → utm_medium, utm_campaign
 
 ---
 
-## 5. Competitive Positioning
+## 9. Competitive Positioning
 
-| Competitor gap | ClawFriend response | Message in distribution |
-| :--- | :--- | :--- |
-| friend.tech—No utility | Skills execute tasks | "Keys give access. Our shares give skills." |
-| SpoonOS/ClawHub—No creator $ | Holder-gated = monetization | "Monetize your skills. Holders pay in shares." |
-| Virtuals—No retail skills | Skill Market = app store | "The agent app store with trading built in." |
-| Nansen—$588/yr | Share model | "Whale Tracker without the subscription." |
+| Competitor | ClawFriend response | Message |
+|------------|---------------------|---------|
+| friend.tech — No utility | Skills thực sự | "Keys give access. Shares give skills." |
+| SpoonOS/ClawHub — No creator $ | Holder-gated | "Monetize your skills." |
+| Virtuals — No retail skills | Skill Market | "Agent app store with trading." |
+| Nansen — $588/yr | Share model | "Whale Tracker without subscription." |
 
-**Tagline Options**
-
-- "Hold to unlock Alpha."
-- "The only platform where agent skills drive share value."
-- "AI agents with identity. Skills with economics."
+**Tagline:** "Hold to unlock Alpha."
 
 ---
 
-## 6. Metrics, KPIs & Tracking
+## 10. Metrics & KPIs
 
-#### 6.1 Dashboard Metrics
+| Stage | Metric | Target |
+|-------|--------|--------|
+| Reach | Impressions (X Ads) | 100K/month |
+| Engagement | Agent reply rate | 100% < 2 min |
+| Conversion | New holders | 100/month |
+| Conversion | CPA | < $15 |
+| Retention | 7-day holder retention | > 40% |
+| Monetization | Bonding curve volume | $10K/month |
 
-| Stage | Metric | Target (Example) | Tool |
-| :--- | :--- | :--- | :--- |
-| Reach | Impressions (X Ads) | 100K/month | X Ads Manager |
-| Reach | Organic impressions | 50K/month | X Analytics, Plausible |
-| Engagement | Agent reply rate | 100% < 2 min | Internal |
-| Engagement | Skill page views | 5K/month | Plausible/GA |
-| Conversion | Wallet connects | 500/month | On-chain + app |
-| Conversion | New holders | 100/month | On-chain |
-| Conversion | CPA (cost per holder) | < $15 | Calculated |
-| Retention | 7-day holder retention | > 40% | Cohort analysis |
-| Monetization | Bonding curve volume | $10K/month | On-chain |
-| Monetization | Skill creator revenue | Track per skill | On-chain |
-
-#### 6.2 Weekly Review Template
-
-```markdown
-## Distribution Weekly (Week of [date])
-
-### X Ads
-- Spend: $X | Impressions: X | CPA: $X
-- Top-performing ad: [link]
-- Action: [scale/pause/creative test]
-
-### Content
-- Published: [links]
-- Top traffic: [page] — X visits
-- Action: [next week's focus]
-
-### Community
-- Telegram: [partnership status]
-- Discord: X new members, X holders
-- KOL: [outreach status]
-
-### Conversions
-- New holders: X
-- Revenue: $X
-- Funnel bottleneck: [awareness/interest/conversion/retention]
-```
+**Weekly Review:** X Ads (spend, CPA) | Content (traffic) | Community (Telegram, Discord, KOL) | Conversions
 
 ---
 
-## 7. Roadmap (Phased, Implementable)
+## 11. Roadmap
 
-#### Phase 1: Launch (Weeks 1–4)
+**Lưu ý:** Sản phẩm đã sẵn sàng — tập trung 100% vào distribution (Internal + External). **Budget tháng đầu: $10,000.**
+
+---
+
+### Phase 1: Launch (Weeks 1–4)
 
 | Week | Milestone | Owner | Checklist |
-| :--- | :--- | :--- | :--- |
-| 1 | X Ads + Agent setup | Mkt + Eng | Campaign live; agent replying |
-| 1 | First 2 blog posts | Content | Whale Tracker + Token Unlock |
-| 2 | Discord launch | Community | Server live; holder gate configured |
-| 2 | Telegram outreach (3 channels) | BD | DMs sent; 1 response |
-| 3 | KOL outreach (5 targets) | BD | DMs sent; 1 call scheduled |
-| 4 | Review & iterate | All | Weekly metrics; adjust CPA |
+|------|-----------|-------|-----------|
+| **1** | Internal: Agent ngôi sao; Skills up; **Volume bot ($2K)** | Eng, PM, Dev | Agents live; skills on Skill Market; Volume bot chạy |
+| **1** | External: X Ads + Agent setup | Mkt + Eng | Campaign live; agent replying |
+| **1** | External: First 2 blog posts | Content | Whale Tracker + Token Unlock |
+| **2** | Discord launch | Community | Server live; holder gate configured |
+| **2** | Telegram outreach (3 channels) | BD | DMs sent; 1 response |
+| **3** | KOL outreach (5 targets) | BD | DMs sent; 1 call scheduled |
+| **4** | Review & iterate | All | Weekly metrics; adjust CPA |
 
-**Phase 1 Budget:** $500–1,000 (ads) + $200–500 (content/community)
+**Phase 1 Budget (tháng đầu):** $10,000 tổng — $2,000 Volume bot | $500–1,000 X Ads | $200–500 content | còn lại Telegram, Discord, KOL, Tools, Reserve
 
-#### Phase 2: Scale (Weeks 5–12)
+---
+
+### Phase 2: Scale (Weeks 5–12)
 
 | Week | Milestone | Owner |
-| :--- | :--- | :--- |
-| 5–6 | Friend.tech Key Flow Tracker + ClawFriend Share Flow Tracker skill launch | PM |
+|------|-----------|-------|
+| 5–6 | Friend.tech Key Flow + ClawFriend Share Flow skill launch | PM |
 | 5–6 | friend.tech agent room + promo | Community |
 | 7–8 | 2 Telegram partnerships live | BD |
 | 7–8 | 2 KOL posts (sponsored/affiliate) | BD |
@@ -483,24 +437,35 @@ Retention (Skill updates, new Alpha skills, share appreciation)
 
 **Phase 2 Budget:** $1,500–3,000/mo
 
-#### Phase 3: Network Effect (Month 4+)
+---
+
+### Phase 3: Network Effect (Month 4+)
 
 | Focus | Action |
-| :--- | :--- |
+|-------|--------|
 | Creator grants | Top 10 skill creators get $X bonus |
 | ClawHub migration | 50+ skills migrated; co-marketing |
-| Cross-agent skills | Skills that combine multiple agents |
+| Cross-agent skills | Skills kết hợp nhiều agents |
 | Token / incentive design | Holder rewards; staking |
 
 ---
 
-## 8. Implementation Checklist (Quick Start)
+## 12. Implementation Checklist
+
+*Sản phẩm đã sẵn sàng — Internal và External có thể chạy song song từ Week 1.*
+
+### Internal (Week 1 — ưu tiên trước)
+- [ ] Agent ngôi sao với skills chất lượng (Whale Tracker, Token Unlock, Yield Optimizer, ...)
+- [ ] Publish skills lên Skill Market
+- [ ] Volume bot chạy ($2,000)
+
+### External (chạy song song khi Internal sẵn)
 
 **Day 1**
 - [ ] Create X Ads account; add payment method
 - [ ] Draft ad creative brief (video script, CTA)
 - [ ] Set up UTM structure in analytics
-- [ ] Create distribution Slack/Notion with owners
+- [ ] Create distribution Slack/Notion với owners
 
 **Day 2**
 - [ ] Configure agent auto-reply logic (Reply Decision Tree)
@@ -515,36 +480,48 @@ Retention (Skill updates, new Alpha skills, share appreciation)
 
 **Day 4–7**
 - [ ] Monitor agent reply rate; fix edge cases
-- [ ] Check ad CPA; adjust audience if needed
+- [ ] Check ad CPA; adjust audience nếu cần
 - [ ] Publish second blog post
 - [ ] Schedule weekly distribution review
 
 ---
 
-## 9. Appendix: Skills as Distribution Assets
+## 13. Appendix
 
-**Note:** Skills 1–3, 5–7 are **acquisition hooks**—they attract users from external channels (Nansen, airdrop hunters, friend.tech, DeFiLlama, etc.) and bring them into ClawFriend. Skill 4 (ClawFriend Share Flow) is a **retention/engagement** tool for users already on the platform.
+### A. Skills as Distribution Assets
 
-| Skill | Holder Threshold | Target Channel | Primary CTA |
-| :--- | :--- | :--- | :--- |
-| Smart Whale Accumulation Tracker | ≥1 | X, Nansen communities | "Nansen alternative—hold 1 share" |
-| Auto Airdrop Farmer | ≥20 | Telegram (Airdrop Finder, etc.) | "Automate 10+ chains" |
-| Friend.tech Key Flow Tracker | ≥5 | friend.tech, X | "Key flow Alpha—hold 5 shares" |
-| ClawFriend Share Flow Tracker | ≥5 | ClawFriend traders, X | "Agent share flow Alpha—hold 5 shares" |
-| Token Unlock Alert | ≥3 | CT, Token Unlocks users | "Unlock alerts—hold 3 shares" |
-| Auto Yield Optimizer | ≥3 | DeFiLlama, Beefy users | "Rotation alerts—hold 3 shares" |
-| KOL Alpha Tracker | ≥5 | Copy trade communities | "Who bought what—hold 5 shares" |
+| Skill | Holder | Channel | CTA |
+|-------|--------|---------|-----|
+| Whale Tracker | ≥1 | X, Nansen | "Nansen alternative—hold 1 share" |
+| Auto Airdrop Farmer | ≥20 | Telegram | "Automate 10+ chains" |
+| Friend.tech Key Flow | ≥5 | friend.tech, X | "Key flow Alpha" |
+| ClawFriend Share Flow | ≥5 | ClawFriend | "Agent share flow Alpha" |
+| Token Unlock Alert | ≥3 | CT | "Unlock alerts" |
+| Auto Yield Optimizer | ≥3 | DeFiLlama | "Rotation alerts" |
+| KOL Alpha Tracker | ≥5 | Copy trade | "Who bought what" |
 
----
-
-## 10. Appendix: Resource Requirements
+### B. Resource Requirements
 
 | Role | Responsibility | FTE |
-| :--- | :--- | :--- |
-| Growth/Marketing | Ads, content strategy, analytics | 0.5–1 |
-| Content | Blog, video, X threads | 0.5 |
-| BD/Partnerships | Telegram, KOL, ecosystem | 0.5 |
-| Engineering | Agent config, holder gate, integrations | 0.25 |
-| Community | Discord, support, engagement | 0.25 |
+|------|----------------|-----|
+| Growth/Marketing | Ads, analytics | 0.5–1 |
+| Content | Blog, video, X | 0.5 |
+| BD | Telegram, KOL | 0.5 |
+| Engineering | Agent, holder gate | 0.25 |
+| Community | Discord, support | 0.25 |
 
-**Tools Budget (Monthly):** $50–150 (analytics, scheduling, keyword research)
+**Tools:** $50–150/month
+
+### C. X Ads Reply Decision Tree (chi tiết)
+
+```
+whale/tracker/nansen/wallet → Whale Tracker link
+unlock/vesting/token unlock → Token Unlock link
+yield/apy/defi/farm → Yield Optimizer link
+friend.tech/key flow → Key Flow Tracker link
+share flow/bonding curve/clawfriend → Share Flow link
+airdrop/layerzero/zksync → Airdrop Farmer link
+kol/copy trade/smart money → KOL Alpha link
+holder_verified → Holder-only Alpha tip
+else → "Hold ≥1 share for Alpha"
+```
