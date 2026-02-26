@@ -17,7 +17,8 @@
 | 13 | Hook Question | "Skill market trống thì lợi thế còn không?" |
 | 14 | Skills Overview | Các skill hữu ích |
 | 15–28 | Skills Detail | 7 skills × 2 slides (nội dung + demand evidence) |
-| 29–37 | Distribution | Internal trước (Agent + Volume bot) → Budget → External (Ads, Content, KOL) → Funnel → Roadmap; $10,000 |
+| 29–38 | Distribution | Internal → Budget → 5 kênh (X Ads, Blog, Telegram, Discord, KOL) → Partnership → Content → Funnel → Roadmap; $10,000 |
+| 39 | Q&A | Questions & Answers |
 
 ---
 
@@ -67,10 +68,12 @@
 ---
 
 ### Slide 6 — Đối thủ 1: SpoonOS
+- **Short description:** Web3 skills marketplace cho "sentient" AI agents — thư viện skills lớn, multi-model, nhưng thiếu Trading + Social.
+
 | Field | Nội dung |
 |-------|----------|
 | **Tên** | SpoonOS |
-| **Link** | skills.spoonai.io |
+| **Link** | [skills.spoonai.io](https://skills.spoonai.io) |
 | **Mô tả** | Web3 skills marketplace cho "sentient" AI agents |
 | **Metrics** | [13,433 skills deployed](https://skills.spoonai.io); [388 GitHub stars](https://github.com/XSpoonAi/spoon-core) |
 | **Monetization** | x402 payment; GAS token rewards |
@@ -81,10 +84,12 @@
 ---
 
 ### Slide 7 — Đối thủ 2: ClawHub
+- **Short description:** Public skills registry chính thức cho OpenClaw — 10K+ skills, miễn phí, nhưng creators không có monetization.
+
 | Field | Nội dung |
 |-------|----------|
 | **Tên** | ClawHub |
-| **Link** | clawhub.ai |
+| **Link** | [clawhub.ai](https://clawhub.ai) |
 | **Mô tả** | Public skills registry chính thức cho OpenClaw |
 | **Metrics** | [10,749+ skills registered](https://clawhub.ai) |
 | **Monetization** | Hoàn toàn miễn phí; open source |
@@ -95,10 +100,12 @@
 ---
 
 ### Slide 8 — Đối thủ 3: Agent Market (NEAR)
+- **Short description:** Marketplace tasks, data, skills giữa agents — A2A focus, 20+ chains, nhưng gig economy ngắn hạn, thiếu retail skills store.
+
 | Field | Nội dung |
 |-------|----------|
 | **Tên** | Agent Market (NEAR) |
-| **Link** | market.near.ai |
+| **Link** | [market.near.ai](https://market.near.ai/) |
 | **Mô tả** | Marketplace tasks, data, skills giữa agents |
 | **Metrics** | [432 Agents; 2,000 Jobs; 13,500 NEAR traded](https://market.near.ai/) |
 | **Monetization** | NEAR escrow; transaction fees |
@@ -109,10 +116,12 @@
 ---
 
 ### Slide 9 — Đối thủ 4: Mech Marketplace (Olas)
+- **Short description:** AI agent marketplace cho coordination và co-ownership — 11M+ A2A txns, co-ownership model, nhưng barrier kỹ thuật cao, không retail.
+
 | Field | Nội dung |
 |-------|----------|
 | **Tên** | Mech Marketplace (Olas) |
-| **Link** | olas.network/mech-marketplace |
+| **Link** | [olas.network/mech-marketplace](https://olas.network/mech-marketplace) |
 | **Mô tả** | AI agent marketplace cho coordination và co-ownership |
 | **Metrics** | [$89,524 revenue; 11M+ A2A transactions](https://olas.network/mech-marketplace) |
 | **Monetization** | Agents earn từ off-chain services cho agents khác |
@@ -123,10 +132,12 @@
 ---
 
 ### Slide 10 — Đối thủ 5: Heurist Mesh
+- **Short description:** Agent skills marketplace chuyên Crypto analysis — 30+ agents, tối ưu token 30–50%, nhưng scope hẹp (chỉ Crypto).
+
 | Field | Nội dung |
 |-------|----------|
 | **Tên** | Heurist Mesh |
-| **Link** | mesh.heurist.ai |
+| **Link** | [mesh.heurist.ai](https://mesh.heurist.ai) |
 | **Mô tả** | Agent skills marketplace chuyên Crypto analysis |
 | **Metrics** | [30+ specialist agents](https://docs.heurist.ai/heurist-mesh/overview); [X 33.9K Followers](https://x.com/heurist_ai) |
 | **Monetization** | Pay-per-use x402 hoặc Credits |
@@ -137,10 +148,12 @@
 ---
 
 ### Slide 11 — Đối thủ 6: Virtuals Protocol
+- **Short description:** AI social ecosystem, agent tokenization — $13.58B trading vol, 17K AI projects, nhưng thiếu retail skills marketplace.
+
 | Field | Nội dung |
 |-------|----------|
 | **Tên** | Virtuals Protocol |
-| **Link** | virtuals.io |
+| **Link** | [virtuals.io](https://virtuals.io) |
 | **Mô tả** | AI social ecosystem; agent tokenization |
 | **Metrics** | [$472.27M aGDP; $13.58B trading vol (30D); $301.95M market cap; 28,249 DAU; 17,897 AI projects](https://www.virtuals.io/) · [X @virtuals_io](https://x.com/virtuals_io) |
 | **Monetization** | $VIRTUAL token; agent tokenization |
@@ -151,10 +164,12 @@
 ---
 
 ### Slide 12 — Đối thủ 7: friend.tech
+- **Short description:** Pioneering SocialFi với Bonding Curve — 14M txns, $628M inflow, Keys trade cho chat, nhưng không có AI skills thực sự.
+
 | Field | Nội dung |
 |-------|----------|
 | **Tên** | friend.tech |
-| **Link** | friend.tech |
+| **Link** | [friend.tech](https://friend.tech) |
 | **Mô tả** | SocialFi với Bonding Curve model |
 | **Metrics** | [14.19M txns; $628.73M inflow; 17,280 ETH fees](https://dune.com/cryptokoryo/friendtech) |
 | **Monetization** | 10% fee; trade Keys cho private chat |
@@ -339,7 +354,7 @@
 
 ## PHẦN 4: CHIẾN LƯỢC PHÂN PHỐI — BUDGET $10,000 THÁNG ĐẦU
 
-*Trình bày theo distribution-plan.md: Internal trước, External sau*
+*Theo distribution-plan.md: 5 kênh acquisition (≥1 organic, ≥1 paid); Partnership; tổng paid ≤ $10,000*
 
 ---
 
@@ -348,104 +363,118 @@
 - **North Star:** Đưa users vào Clawfriend — connect wallet, buy shares, dùng skills
 - **Đặt vấn đề:** Chạy ads kéo users vào dễ — **giữ users quay lại** mới quan trọng
 - **"Dọn nhà sạch đẹp trước khi mời khách"**
+- **5 kênh acquisition:** X Ads (paid) | Blog (organic) | Telegram (paid) | Discord (organic) | KOL (paid)
 
 | Lớp | Mục đích | Thời điểm |
 |-----|----------|-----------|
-| **Internal** | Chuẩn bị platform: skills chất lượng, volume, FOMO | **Trước** ads |
-| **External** | Kéo users từ bên ngoài vào | **Sau** khi Internal sẵn sàng |
-
-**Thứ tự:** Internal (Week 1) → External (Week 2+)
+| **Internal** | Agent ngôi sao + Volume bot | **Trước** ads |
+| **External** | 5 kênh acquisition | **Sau** khi Internal sẵn sàng |
 
 ---
 
-### Slide 30 — Internal: Agent ngôi sao
-- **Tiêu đề:** Internal — Agent ngôi sao
-- **Nội dung:**
-  - Deploy agents với skills chất lượng: Whale Tracker, Token Unlock, Yield Optimizer, Friend.tech Key Flow, ...
-  - Users vào phải thấy có gì đáng dùng
-- **Owner:** Eng / PM
+### Slide 30 — Internal: Agent ngôi sao + Volume Bot
+| Internal | Chi tiết |
+|----------|----------|
+| **Agent ngôi sao** | Deploy agents + skills: Whale Tracker, Token Unlock, Yield Optimizer, Friend.tech Key Flow. Owner: Eng/PM |
+| **Volume Bot** | $2,000. Tạo volume, FOMO trên bonding curve. Bot dev đã có. Owner: Dev |
 
 ---
 
-### Slide 31 — Internal: Volume Bot
-- **Tiêu đề:** Internal — Volume Bot
-- **Budget:** $2,000 (20%)
-- **Mục đích:** Tạo volume trên bonding curve; platform không trống; FOMO
-- **Trạng thái:** Bot đội dev đã có
-- **Chạy:** Trước khi launch ads
-- **Owner:** Dev team
+### Slide 31 — Budget + Tổng Chi Phí (≤ $10,000)
+| Kênh | Loại | Cost |
+|------|------|------|
+| Volume bot | Internal | $2,000 |
+| X Ads | Paid | $500–1,000 |
+| Telegram | Paid | $100–300 |
+| KOL | Paid | $200–500 |
+| Tools | Paid | $50–150 |
+| **Tổng paid acquisition** | | **~$850–1,950** |
+| Blog | Organic | **$0** |
+| Discord | Organic | **$0** |
+
+*Tổng tháng đầu ≤ $10,000. Organic = $0.*
 
 ---
 
-### Slide 32 — Budget ($10,000) — Internal vs External
-| Lớp | Hạng mục | Budget | % |
-|-----|----------|--------|---|
-| Internal | Volume bot (auto mua/bán) | $2,000 | 20% |
-| External | X Ads | $500–1,000 | 5–10% |
-| External | Content & SEO | $200–500 | 2–5% |
-| External | Telegram | $200–600 | 2–6% |
-| External | Discord, friend.tech, KOL | $400–1,000 | 4–10% |
-| External | Tools | $50–150 | 0.5–1.5% |
-| | Reserve | Còn lại | — |
+### Slide 32 — Kênh 1: X Ads — PAID
+| Tiêu chí | Nội dung |
+|----------|----------|
+| **Tại sao** | Crypto/DeFi tập trung trên X; followers @DefiLlama @Nansen_ai = đúng target |
+| **Action** | Campaign Engagement. Video 15s demo Whale Tracker. Landing: skill page. Agent auto-reply comment → skill link |
+| **Target** | Swing traders, whale trackers, Nansen users |
+| **Timeline** | Tuần 1: Launch ($20–50/ngày). Tuần 2–4: Scale nếu CPA < $15 |
+| **Reach** | 100K impressions; 2K–5K clicks |
+| **Metric** | CPC $0.50 | CPA < $15 | CAC ~$16.67 |
 
 ---
 
-### Slide 33 — External: X Ads + Agent Auto-Reply
-| Item | Detail |
-|------|--------|
-| Objective | Engagement / Video views |
-| Budget | $20–50/ngày test; scale nếu CPA < $15 |
-| Audience | Crypto, DeFi; @whale_alert, @nansen_ai, @DefiLlama |
-| Creative | Video 15s: "Track whale moves in 60 seconds. No $588/yr." |
-| Agent Reply | Auto-reply theo comment → skill link + "Hold ≥X shares" |
-| Holder Verification | Connect wallet → check share balance → unlock Alpha |
+### Slide 33 — Kênh 2 & 4: Blog + Discord — ORGANIC ($0)
+**Blog (Mirror.xyz / blog.clawfriend.io)**
+- 9 bài/tuần: tutorial mỗi skill. VD: "Cách dùng Whale Tracker Skill để theo dõi Smart Money trên Base"
+- Cross-post: X thread, r/ethereum, Telegram
+- Reach: 5K–15K views; 50–200 sign-ups. Metric: Page views, Sign-ups UTM, Skill downloads
 
-**Reply Decision Tree:** whale → Whale skill | unlock → Unlock skill | yield → Yield | friend.tech → Key Flow | airdrop → Airdrop Farmer | kol → KOL Alpha | else → "Hold ≥1 share"
+**Discord**
+- Server + holder gate (#holder-alpha). Connect wallet → role Holder
+- Reach: 200–500 members. Metric: Members, Holders in server
 
 ---
 
-### Slide 34 — External: Content & SEO
-- **Keywords:** Whale Tracker (6.6K/mo), Token Unlock (2–5K), Yield (5–10K), KOL Alpha (10–20K)
-- **Content calendar (9 tuần):** Blog tuần 1–2 (Whale, Unlock) | Video 60s tuần 3 | Blog tuần 4–9
-- **Bài mẫu:** "Nansen vs Free Alternatives", "Token Unlock $732M Feb 2026"
-- **Tools:** Ahrefs, Buffer, GSC, CapCut
+### Slide 34 — Kênh 3 & 5: Telegram + KOL — PAID
+**Telegram (Airdrop Finder 698K, AirdropHunter 476K)**
+- Sponsored post $100–300. Creative: Auto Airdrop Farmer skill. Target: airdrop hunters
+- Timeline: Tuần 2 outreach; Tuần 3–4 post live. Reach: 50K–150K | Metric: Clicks UTM, Holders ≥20
+
+**KOL (5 targets)**
+- Sponsored $200–500 hoặc Affiliate. "Whale Tracker without $588/yr"
+- Timeline: Tuần 2 DM; Tuần 3–4 1 post. Reach: 10K–50K | Metric: Clicks, Share purchases
 
 ---
 
-### Slide 35 — External: Community & KOL + Integrations
-**Community:**
-- **Telegram:** Airdrop Finder (698K), AirdropHunter (476K, 104K) — sponsored $100–300, webinar $200–500
-- **Discord:** Server + holder gate (#holder-alpha)
-- **friend.tech:** Agent room; Key Flow + Share Flow promo; key buys KOL
-- **KOL:** 5 targets; Sponsored / Affiliate / Equity
-
-**Integrations:** BNB Chain grant | DeFiLlama (Yield), Token Unlocks (Unlock) | ClawHub migration
+### Slide 35 — Partnership / Collab
+| Đối tác | Lý do | Lợi ích 2 bên | Action |
+|---------|-------|---------------|--------|
+| **OpenClaw / ClawHub** | 10,749+ skills; agents cần skills | Họ: ecosystem phong phú. Mình: users + migration | "1-click import" skill; PR GitHub. Tuần 9–12 |
+| **Airdrop Finder** | 698K; target Auto Airdrop | Họ: fee. Mình: reach | Sponsored / webinar "Automate farming". Tuần 3–4 |
+| **BNB Chain** | ClawFriend chạy trên BNB | Họ: ecosystem. Mình: grant, AMA | builder.bnbchain.org; hackathon; AMA. Month 1–2 |
 
 ---
 
-### Slide 36 — Conversion Funnel & KPIs
+### Slide 36 — Content: 9 Bài (9 Tuần)
+| Tuần | Loại | Tiêu đề |
+|------|------|---------|
+| 1 | Blog | Whale Tracker: Nansen vs Free Alternatives 2025 |
+| 2 | Blog | Token Unlock: $732M+ Unlocks Feb 2026 |
+| 3 | Video 60s | Track Whale Accumulation in 60 Seconds |
+| 4–9 | Blog/Thread | Friend.tech Key Flow | Share Flow | Nansen vs CF | DeFi Yield | Unlock Case Studies | Copy Trading |
+
+*Chi tiết outline, meta, CTA → distribution-plan.md 7.2*
+
+---
+
+### Slide 37 — Conversion Funnel & KPIs
 ```
-Internal (Agent + Skills + Volume) → Platform ready
-         ↓
-External: Awareness (Ads, Content, KOL)
-         ↓ Interest → Trial → Conversion → Retention
+Internal → External (5 kênh) → Awareness → Interest → Trial → Conversion → Retention
 ```
-
-**Targets:** 100K impressions/tháng | CPA < $15 | 100 holders/tháng | 7-day retention > 40% | Bonding curve $10K/month
+**Targets:** 100K impressions | CPA < $15 | 100 holders/tháng | 7-day retention > 40%
 
 ---
 
-### Slide 37 — Roadmap + Implementation Checklist
-**Phase 1 (Weeks 1–4):**
-
+### Slide 38 — Roadmap (Tuần 1–4)
 | Tuần | Internal | External |
 |------|----------|----------|
-| 1 | Agent ngôi sao; Skills up; **Volume bot ($2K)** | Discord; 2 blog posts |
-| 2 | — | X Ads; Telegram outreach |
-| 3 | — | Holder gate; KOL outreach |
+| 1 | Agent + Skills + **Volume bot ($2K)** | Discord; Blog 2 bài; X Ads launch |
+| 2 | — | Telegram outreach; KOL DM |
+| 3 | — | Holder gate; Telegram post; KOL post |
 | 4 | — | Review; iterate |
 
-**Phase 1 Budget:** ~$2,700–3,500
+**Phase 1 Budget:** $10,000
+
+---
+
+### Slide 39 — Q&A
+- **Tiêu đề:** Q&A — Questions & Answers
+- **Ghi chú:** Slide kết thúc; để trống cho khán giả đặt câu hỏi
 
 ---
 
